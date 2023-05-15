@@ -1,0 +1,247 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: GothamHTF-Bold;
+    src: url(/fonts/GothamHTF-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: GothamHTF-Book;
+    src: url(/fonts/GothamHTF-Book.otf) format("opentype");
+}
+
+@font-face {
+    font-family: GothamHTF-Medium;
+    src: url(/fonts/GothamHTF-Medium.otf) format("opentype");
+}
+
+body {
+    background-color: #000000;
+}
+
+.bg-menu {
+    background-color: #151819;
+}
+
+.menu-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    color: #616d72;
+    font-family: GothamHTF-Book;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.menu-link:hover{
+    color: #ED145B;
+}
+
+.inscreva-se {
+    padding: 0.5rem 2rem;
+    color: #ED145B;
+    font-family: GothamHTF-Book;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #ED145B;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.inscreva-se:hover {
+    color: #FFFFFF;
+    background-color: #ED145B;
+    border: 5px solid solid #ED145B;
+}
+
+.header-banner {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(/images/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    font-family: GothamHTF-Bold;
+    margin-top: 100px;
+    padding: 0;
+    color: #91a3ad;
+}
+
+.header-title-desc {
+    font-family: GothamHTF-Book;
+    color: #91a3ad;
+}
+
+#curso {
+    margin-top: 105px;
+    padding: 100px 0;
+    color: #91A3AD;
+}
+
+.curso-column {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    padding: 0 50px;
+}
+
+.curso-title {
+    height: 70px;
+    font-weight: 500;
+    font-family: GothamHTF-Medium;
+    line-height: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.curso-info-title {
+    height: 70px;
+    font-family: GothamHTF-Medium;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ED145B;
+    text-transform: uppercase;
+}
+
+.curso-content {
+    font-family: GothamHTF-Book;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.curso-table {
+    list-style-type: none;
+    font-family: GothamHTF-Book;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+#matriz-curricular {
+    margin-top: 105px;
+    padding: 100px 43px;
+    color: #91A3AD;
+}
+
+.matriz-title {
+    font-weight: 500;
+    font-family: GothamHTF-Medium;
+    line-height: 35px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.matriz-sub-title {
+    font-family: GothamHTF-Book;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.accordion_item {
+    margin: 60px 0;
+    background-color: transparent;
+    border: 1px solid #91A3AD;
+}
+
+.accordion_item :hover {
+    color: #ED145B;
+}
+
+.accordion_header {
+    padding: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion_content {
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s ease;
+    font-size: 14px;
+    border-left: 1px solid #ED145B;
+}
+
+
+.accordion_title {
+    font-family: GothamHTF-Medium;
+    text-transform: uppercase;
+}
+
+.accordion_paragraph {
+    font-family: GothamHTF-Book;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+}
+
+#turmas{
+    margin-top: 105px;
+    padding: 100px 43px;
+    color: #91A3AD;
+}
+@media screen and (max-width: 990px){
+    #turmas{
+        margin-top: 105px;
+        padding: 100px 0px;
+        color: #91A3AD;
+    }
+}
+@media screen and (max-width: 768px){
+    #turmas{
+        margin: 105px 0 0 0 ;
+        padding: 100px 0px;
+        color: #91A3AD;
+    }
+}
+
+.turmas-table{
+    border: 1px solid #32383B;
+}
+
+.turmas-title{
+    font-weight: 500;
+    font-family: GothamHTF-Medium;
+    line-height: 35px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.turmas-table th{
+    height: 75px;
+    padding: 2rem;
+    font-family: GothamHTF-Book;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #91A3AD;
+}
+
+.turmas-table-obs{
+    text-align: end;
+    font-family: GothamHTF-Book;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #91A3AD;
+}
