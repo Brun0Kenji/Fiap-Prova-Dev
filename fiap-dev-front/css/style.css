@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: GothamHTF-Bold;
-    src: url(/fonts/GothamHTF-Bold.otf) format("opentype");
+    src: url(../fonts/GothamHTF-Bold.otf) format("opentype");
 }
 
 @font-face {
     font-family: GothamHTF-Book;
-    src: url(/fonts/GothamHTF-Book.otf) format("opentype");
+    src: url(../fonts/GothamHTF-Book.otf) format("opentype");
 }
 
 @font-face {
     font-family: GothamHTF-Medium;
-    src: url(/fonts/GothamHTF-Medium.otf) format("opentype");
+    src: url(../fonts/GothamHTF-Medium.otf) format("opentype");
 }
 
 body {
@@ -26,7 +26,6 @@ body {
 .menu-link {
     display: block;
     padding: 0.5rem 1rem;
-    margin-bottom: 1.5rem;
     color: #616d72;
     font-family: GothamHTF-Book;
     text-decoration: none;
@@ -66,7 +65,7 @@ body {
 .header-banner {
     height: 100vh;
     min-height: 500px;
-    background-image: url(/images/header.png);
+    background-image: url(../images/header.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,16 +115,20 @@ body {
 }
 
 .curso-content {
-    font-family: GothamHTF-Book;
-    line-height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 30px;
 }
 
 .curso-table {
     list-style-type: none;
-    font-family: GothamHTF-Book;
-    line-height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 30px;
 }
 
 
@@ -186,7 +189,9 @@ body {
 }
 
 .accordion_paragraph {
-    font-family: GothamHTF-Book;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 40px;
     letter-spacing: 0.05em;
